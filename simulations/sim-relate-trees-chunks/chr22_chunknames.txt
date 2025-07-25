@@ -1,0 +1,11 @@
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk0.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk1.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk2.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk3.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk4.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk5.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk6.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk7.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk8.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk9.trees.tsz
+/Users/ignatiev/Dropbox/projects/spectre-paper/simulations/false-positives/trees/trees_chr22_chunk10.trees.tsz

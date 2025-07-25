@@ -1,0 +1,100 @@
+# These will reproduce the figures and table in the main text of the paper
+
+#===================================================================================
+# Example in spectre github
+#===================================================================================
+
+python -m spectre \
+-f ~/spectre/example/trees_chr20.trees.tsz \
+-C 20,20 -P 15489683,15620278 --alpha 0.05 --teststatistic 2.5 --effectsize 0.1 \
+-O ~/spectre/example
+
+#===================================================================================
+# Hemani interactions (Figure 4)
+#===================================================================================
+
+python -m spectre \
+-c /trees/loc/chr21/chunknames.txt \
+-t /trees/loc/chr21/treeinfo_chr21.txt \
+-C 21,21,21 -P 45230974,45198355,45201832 -A 0.05 -p8.30e-07 \
+-O ~/spectre-paper/Hemani --overwrite
+
+python -m spectre \
+-c /trees/loc/chr1/chunknames.txt \
+-t /trees/loc/chr1/treeinfo_chr1.txt \
+-C 1,1,1 -P 203877662,203780591,203747772 -A 0.05 -p 1.60e-4 \
+-O ~/spectre-paper/Hemani --overwrite
+
+#===================================================================================
+# ABO-FUT2 interaction (Figure 5)
+#===================================================================================
+
+python -m spectre \
+-c /trees/loc/chr9/chunknames.txt,/trees/loc/chr19/chunknames.txt \
+-t /trees/loc/chr9/treeinfo_chr9.txt,/trees/loc/chr19/treeinfo_chr19.txt \
+-C 9,19 -P 136155000,49214274 -A 5e-8 -p 1.617e-72 --effectsize 0.0783 \
+-O ~/spectre-paper/ABO-FUT2 --overwrite
+
+#===================================================================================
+# Hemani interactions (Table 1)
+#===================================================================================
+
+python -m spectre \
+-c /trees/loc/chr3/chunknames.txt \
+-t /trees/loc/chr3/treeinfo_chr3.txt \
+-C 3,3,3 -P 152234166,152116652,152182577 -A 0.05 -p 2.7e-6 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr8/chunknames.txt \
+-t /trees/loc/chr8/treeinfo_chr8.txt \
+-C 8,8,8 -P 144663661,144613680,144684215 -A 0.05 -p 6.20e-6 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr10/chunknames.txt \
+-t /trees/loc/chr10/treeinfo_chr10.txt \
+-C 10,10,10 -P 76446305,75929517,75928933 -A 0.05 -p 9.10e-4 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr11/chunknames.txt \
+-t /trees/loc/chr11/treeinfo_chr11.txt \
+-C 11,11,11 -P 88117962,88077479,88015717 -A 0.05 -p 5.00e-6 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr17/chunknames.txt \
+-t /trees/loc/chr17/treeinfo_chr17.txt \
+-C 17,17,17 -P 80890638,80827903,80678628 -A 0.05 -p 2.90e-12 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr18/chunknames.txt \
+-t /trees/loc/chr18/treeinfo_chr18.txt \
+-C 18,18,18 -P 74747424,74732087,74723459 -A 0.05 -p 0.05 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr19/chunknames.txt \
+-t /trees/loc/chr19/treeinfo_chr19.txt \
+-C 19,19,19 -P 19810050,19738554,19756073 -A 0.05 -p 7.90e-3 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr19/chunknames.txt \
+-t /trees/loc/chr19/treeinfo_chr19.txt \
+-C 19,19,19 -P 36268923,36147315,36234489 -A 0.05 -p 2.90e-6 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr21/chunknames.txt \
+-t /trees/loc/chr21/treeinfo_chr21.txt \
+-C 21,21,21 -P 48027084,47764477,47703649 -A 0.05 -p 7.20e-3 \
+-O ~/spectre-paper/Hemani --overwrite;
+
+python -m spectre \
+-c /trees/loc/chr21/chunknames.txt \
+-t /trees/loc/chr21/treeinfo_chr21.txt \
+-C 21,21,21 -P 48063862,47776382,47887791 -A 0.05 -p 2.60e-4 \
+-O ~/spectre-paper/Hemani --overwrite;

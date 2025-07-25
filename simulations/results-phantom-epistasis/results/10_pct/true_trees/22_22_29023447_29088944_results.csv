@@ -1,0 +1,46 @@
+Variable,Value
+snp1,chr22:29023447
+snp2,chr22:29088944
+snp3,chr22:29211218
+sample_size_N,1006
+alpha,0.0000
+interaction_test_statistic,4.9246
+interaction_effect_size,0.0918
+max_effect_size,2.0000
+search_distance_cM,1.0000
+searchrange_chr22_start,28001647
+searchrange_chr22_end,30832042
+freq_snp1,0.1849
+freq_snp2,0.1501
+freq_S,0.1034
+freq_K1,0.0815
+freq_K2,0.0467
+freq_O,0.7684
+test1a_b_clade_min_p0.5,0.1958
+test1a_r2_clade_min_p0.5,0.4060
+test1a_b_mut_min_p0.5,0.1958
+test1a_r2_mut_min_p0.5,0.4060
+test1a_mut_chr_p0.5,22
+test1a_mut_pos_p0.5,"[29181541, 29189608, 29197929, 29182604, 29192973, 29176895]"
+test1a_b_clade_min_p0.8,0.2301
+test1a_r2_clade_min_p0.8,0.4060
+test1a_b_mut_min_p0.8,0.2301
+test1a_r2_mut_min_p0.8,0.4060
+test1a_mut_chr_p0.8,22
+test1a_mut_pos_p0.8,"[29181541, 29189608, 29197929, 29182604, 29192973, 29176895]"
+test1a_b_clade_min_p0.9,0.2480
+test1a_r2_clade_min_p0.9,0.4060
+test1a_b_mut_min_p0.9,0.2480
+test1a_r2_mut_min_p0.9,0.4060
+test1a_mut_chr_p0.9,22
+test1a_mut_pos_p0.9,"[29181541, 29189608, 29197929, 29182604, 29192973, 29176895]"
+test1a_b_clade_min_p0.95,0.2628
+test1a_r2_clade_min_p0.95,0.4060
+test1a_b_mut_min_p0.95,0.2628
+test1a_r2_mut_min_p0.95,0.4060
+test1a_mut_chr_p0.95,22
+test1a_mut_pos_p0.95,"[29181541, 29189608, 29197929, 29182604, 29192973, 29176895]"
+test1b_b_min,0.0047
+test2_span_lt_effectsize_chr22,0
+test2_total_span_lt_effectsize,0
+test2_overall_min_b,0.4275
